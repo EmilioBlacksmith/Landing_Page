@@ -6,6 +6,8 @@ body{
     min-height: 100vh;
 }
 
+/* Header Section */
+
 .Header{
     margin: 0;
     display: flex;
@@ -32,10 +34,14 @@ body{
     margin: 8px;
 }
 
+/* Page Container */
+
 .Page-Container{
     flex-grow: 1;
     flex-shrink: 1;
 }
+
+/* Hero Section */
 
 .hero{
     background-color: #1f2937;
@@ -87,6 +93,53 @@ body{
     text-decoration: none;
     width: 60px;
 }
+
+/* Blocks Section */
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks .title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.block-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.block{
+    height: 250px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;   
+    gap: 16px;
+    margin: 16px;
+}
+
+.box{
+    border: solid #3882f6;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.block p{
+    margin: 0;
+    text-align: center;
+}
+
+/* */
+
+
+/* Footer Section*/
 
 .Footer{
     background-color: #1f2937;
