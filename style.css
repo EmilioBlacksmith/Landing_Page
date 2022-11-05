@@ -126,7 +126,7 @@ body{
     margin: 16px;
 }
 
-.box{
+.block .box{
     border: solid #3882f6;
     height: 300px;
     border-radius: 25px;
