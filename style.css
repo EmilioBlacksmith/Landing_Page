@@ -170,7 +170,63 @@ body{
 
 /* Call to Action */
 
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 20rem;
+    margin: 0;
+}
 
+.cta-box{
+    background-color: #3882f6;
+    width: 87vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 24px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.cta-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cta-right{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cta-maintext{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.cta-subtext{
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.cta-right .cta-button{
+    border-style: solid;
+    color: #f9faf8;
+    padding: 8px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 /* Footer Section*/
 
