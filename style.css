@@ -99,6 +99,7 @@ body{
 .blocks{
     display: flex;
     flex-direction: column;
+    margin-bottom: 64px;
 }
 
 .blocks .title{
@@ -138,6 +139,33 @@ body{
 
 /* Inspirational Quote */
 
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 0px;
+    margin: 0px;
+    padding: 32px;
+}
+
+.quote .epigram{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: -5px;
+    width: 48rem;
+    align-self: center;
+}
+
+.quote .epigrammist{
+    font-size: 18px;
+    font-weight: bold;
+    width: 45rem;
+    text-align: right;
+    align-self: center;
+}
 
 
 /* Call to Action */
